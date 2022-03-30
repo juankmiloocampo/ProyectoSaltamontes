@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MIS PEQUEÑOS SALTAMONTES</string>
+    <string name="hola1">MIS PEQUEÑOS SALTAMONTES</string>
+    <string name="cmp1">Documento</string>
+    <string name="cmp2">Nombre completo</string>
+    <string name="cmp3">Edad</string>
+    <string name="cmp4">Telefono</string>
+    <string name="cmp5">Direccion</string>
+    <string name="cmp6">Nota</string>
+    <string name="cmp7">Bienvenido Usuario</string>
+    <string name="cmp8">- Ingrese todos los datos correctamente</string>
+    <string name="btn1">Calcular Promedio</string>
+    <string name="tituloAyuda">Instrucciones</string>
+    <string name="regresar">Regresar</string>
+    <string name="tituloEstadistica">Estadisticas</string>
+    <string name="resultado">Usuario Registrado</string>
+    <string name="footerMain">JK-Soul-SK</string>
+    <string name="tituloMain">MIS PEQUEÑOS SALTAMONTES</string>
+    <string name="subtituloMain">Bienvenido a nuestro sistema, por favor ingrese a una de las opciones</string>
+    <string name="ayudaText1">Bienvenido a nuestro asistente de ayuda</string>
+    <string name="ayudaText2">Para usar correctamente nuestra aplicacion ten en cuenta los siguientes pasos</string>
+    <string name="ayudaText3">Opcion de registro:</string>
+    <string name="ayudaText4">- Si deseas consultar cual es tu promedio ingresa a la opcion de registro en el menu principal, llena los campos correctamente con tu informacion personal solicitada</string>
+    <string name="ayudaText5">- Selecciona las materias e ingresa la nota parcial de cada una en el campo correspondiente</string>
+    <string name="ayudaText6">- Por ultimo presiona en el boton calcular para terminar la consulta</string>
+    <string name="ayudaText7">Opcion de estadisticas:</string>
+    <string name="ayudaText8">En la opcion de estadisticas puedes ver un listado de</string>
+    <string name="ayudaText9">- Cantidad de estudiantes procesados</string>
+    <string name="ayudaText10">- Cantidad de estudiantes que ganan</string>
+    <string name="ayudaText11">- Cantidad de estudiantes que pierden</string>
+    <string name="ayudaText12">- Cantidad de estudiantes que pueden recuperar</string>
+    <string name="ayudaText13">Eso es todo lo que debes saber acerca del uso de nuestra app, ¡¡buena suerte!!</string>
+
+
+    <string-array name="materias">
+        <item>Seleccione</item>
+        <item>Ruby</item>
+        <item>Java</item>
+        <item>.NET</item>
+        <item>Python</item>
+        <item>PHP</item>
+        <item>JavaScript</item>
+        <item>GO</item>
+    </string-array>
+</resources>

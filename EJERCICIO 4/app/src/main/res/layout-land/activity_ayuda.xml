@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Ayuda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="230dp"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/tituloAyuda"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/ayudaText1" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/ayudaText2" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ayudaText3" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="@string/ayudaText4" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="475dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/ayudaText5" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/black"
+                    android:text="@string/ayudaText6" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:text="@string/ayudaText7" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="@string/ayudaText8" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:text="@string/ayudaText9" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="100dp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:text="@string/ayudaText10" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:text="@string/ayudaText11" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="3dp"
+                    android:textSize="20sp"
+                    android:text="@string/ayudaText12" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="502dp"
+                    android:layout_height="55dp"
+                    android:layout_marginHorizontal="100dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ayudaText13"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnVolver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="290dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="28dp"
+                    android:textSize="15sp"
+                    android:text="@string/regresar" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
